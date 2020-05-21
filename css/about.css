@@ -99,10 +99,7 @@ body{
     display: block;
     margin: 15px auto
    }
-   .main-text{
-       margin-left: 40px;
-       max-width: 600px;
-   }
+   
    .main-text h4{
     font-family: "Raleway-BoldItalic";
     text-align: left;
@@ -124,19 +121,25 @@ body{
     color: black;
     padding: 15px;
     text-shadow: 1px 1px 2px grey;
-    max-width: 600px;
+    
     
    }
-   .main{
+   .img-1,.img-2,.img-3,.img-4{
        display: flex;
        justify-content: space-between;
-       
+       align-items: center;
+       margin: 20px 42px;
+       width: 100%;
    }
-   .main-img{
-       margin-right: 20px;
-       background-image: url("../Assets/about.jpg");
-       background-size: cover;
-       height: 88vh;
-       background-position: center center;
+  
+   .brands{
+    font-family: "Raleway-BoldItalic";
+    text-align: center;
+    color: black;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px black; 
    }
-   
+   .brands span{
+    font-family: "Raleway-BoldItalic";
+    color: darkgrey
+}
