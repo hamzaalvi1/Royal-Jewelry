@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+@font-face {
+    font-family: 'Raleway-BoldItalic';
+    src: url('../fonts/Raleway-BoldItalic.ttf');
+  }
+  @font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('../fonts/KaushanScript-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Raleway-MediumItalic';
+    src: url('../fonts/Raleway-MediumItalic.ttf');
+  }
+
+  @font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf');
+  }
+
+.nav-wrapper{
+    background-color: #263238;
+    
+}
+.nav-wrapper li:hover{
+    background-color: white;
+    
+    
+}
+.nav-wrapper li>a:hover{
+    color: black;
+    
+    
+}
+.nav-wrapper a{
+    font-family:'Raleway-Medium';
+}
+.brand-logo{
+    font-family: "Dancing Script" !important;
+    margin-left: 25px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    height: 38px;
+    font-family:'Raleway-Medium' ;
+}
+.intro-div p{
+ font-family: "Raleway-MediumItalic";
+ text-align: justify;
+ padding: 0px 15px;
+ text-shadow: 1px 1px 2px grey;
+
+}
+.intro-div h3{
+    font-family: "Raleway-BoldItalic";
+    text-align: center;
+    color: black;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px black;
+}
+.intro-div h3 span{
+    font-family: "Raleway-BoldItalic";
+    text-align: left;
+    color: darkgrey
+}
+.intro-div h4{
+    font-family: "Raleway-BoldItalic";
+    text-align: center;
+    color: black;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px black;
+    
+
+}
+.intro-div h4 span{
+    font-family: "Raleway-BoldItalic";
+    text-align: left;
+    color: darkgrey
+}
+.intro-div blockquote{
+    font-family: "Raleway-MediumItalic";
+    text-align: justify;
+    padding: 10px 40px;
+    text-shadow: 1px 1px 2px grey;
+    background-color: gainsboro;
+    max-width: 1000px ;
+    display: block;
+    margin: 15px auto
+   }
+   .main-text{
+       margin-left: 40px;
+       max-width: 600px;
+   }
+   .main-text h4{
+    font-family: "Raleway-BoldItalic";
+    text-align: left;
+    color: black;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px black;
+    
+
+}
+   .main-text h4 span{
+    font-family: "Raleway-BoldItalic";
+    text-align: left;
+    color: grey
+
+   }
+   .main-text p{
+    font-family: "Raleway-MediumItalic";
+    text-align: justify;
+    color: black;
+    padding: 15px;
+    text-shadow: 1px 1px 2px grey;
+    max-width: 600px;
+    
+   }
+   .main{
+       display: flex;
+       justify-content: space-between;
+       
+   }
+   .main-img{
+       margin-right: 20px;
+       background-image: url("../Assets/about.jpg");
+       background-size: cover;
+       height: 88vh;
+       background-position: center center;
+   }
+   
