@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Raleway-BoldItalic';
+    src: url('../fonts/Raleway-BoldItalic.ttf');
+  }
+  @font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('../fonts/KaushanScript-Regular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf');
+  }
+
+.nav-wrapper{
+    background-color: #263238;
+    
+}
+.nav-wrapper li:hover{
+    background-color: white;
+    
+    
+}
+.nav-wrapper li>a:hover{
+    color: black;
+    
+    
+}
+.nav-wrapper a{
+    font-family:'Raleway-Medium';
+}
+.brand-logo{
+    font-family: "Dancing Script" !important;
+    margin-left: 25px;
+}
+.main-Img{
+  background-image: url("../Assets/main-2.jpeg"); 
+  background-size: cover;
+  height: 88vh;
+  background-position: center center;
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    height: 38px;
+    font-family:'Raleway-Medium' ;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-text h2{
+    text-align: center;
+    margin-top: -137px;
+    font-size: 65px;
+    color: white;
+    font-family: 'KaushanScript-Regular';
+    /* font-weight: 900;
+    font-style: italic; */
+    text-shadow: 3px 2px 1px black;
+    animation-name: moveFromLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+.main-text h3{
+animation-name: moveFromRight;
+animation-duration: 3s;
+animation-timing-function: ease-out;
+font-family: 'KaushanScript-Regular';
+text-shadow: 3px 2px 1px black;
+
+text-align: center;
+font-size: 65px;
+color: white;
+;
+/* font-weight: 900;
+font-style: italic; */
+
+}
+.main-text a{
+    height: 38px;
+    width: 190px;
+    margin-top: 20px;
+    background-color:#263238 ;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 5px;
+    letter-spacing: 0.5rem;
+    font-family: 'Raleway-BoldItalic';
+    box-shadow: 1px 1px 2px black;
+    animation-name: moveFromBottom;
+    animation-duration: 3s;
+      animation-timing-function: ease-out;
+}
+.main-text a:hover{
+  
+    background-color: white;
+    color: black;
+
+}
+
+@keyframes moveFromLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+   75%{
+    transform: translateX(30px);
+   }
+
+     100%{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+@keyframes moveFromRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+   75%{
+    transform: translateX(-20px);
+   }
+
+     100%{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
+}
+@keyframes moveFromBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+   75%{
+    transform: translateY(-05px);
+   }
+
+     100%{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+}
