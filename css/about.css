@@ -143,3 +143,52 @@ body{
     font-family: "Raleway-BoldItalic";
     color: darkgrey
 }
+ .delivery-icons{
+  display: flex;
+  justify-content: space-between;
+  background-color: gainsboro;
+  padding: 10px;
+
+ }
+ .del-icons-1 , .del-icons-2 , .del-icons-3 , .del-icons-4{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+ }
+ h5{
+    font-family: "Raleway-BoldItalic";
+    text-align: left;
+    color: #263238;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px grey;
+    
+
+ }
+ .fa-thumbs-up , .fa-truck , .fa-phone , .fa-random {
+     font-size: 35px;
+     color: #263238;
+    text-shadow: 1px 1px 2px grey;
+
+ }
+ .font-para{
+    font-family: "Raleway-MediumItalic";
+    text-align: justify;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px grey;
+    color: #263238
+    
+ }
+ .services{
+    font-family: "Raleway-BoldItalic";
+    text-align: center;
+    color: black;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px black; 
+   }
+
+   .services span{
+    font-family: "Raleway-BoldItalic";
+    color: darkgrey
+}
