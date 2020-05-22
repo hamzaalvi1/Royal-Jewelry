@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+@font-face {
+    font-family: 'Raleway-BoldItalic';
+    src: url('../fonts/Raleway-BoldItalic.ttf');
+  }
+  @font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('../fonts/KaushanScript-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Raleway-MediumItalic';
+    src: url('../fonts/Raleway-MediumItalic.ttf');
+  }
+
+  @font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf');
+  }
+
+.nav-wrapper{
+    background-color: #263238;
+    
+}
+.nav-wrapper li:hover{
+    background-color: white;
+    
+    
+}
+.nav-wrapper li>a:hover{
+    color: black;
+    
+    
+}
+.nav-wrapper a{
+    font-family:'Raleway-Medium';
+}
+.brand-logo{
+    font-family: "Dancing Script" !important;
+    margin-left: 25px;
+}
+.contact-div{
+    margin: 15px 5px; 
+}
+.contact-text h4{
+    font-family: "Raleway-BoldItalic";
+    text-align: left;
+    color: black;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px black;
+}
+.contact-text h4 span{
+    font-family: "Raleway-BoldItalic";
+    color: darkgrey
+}
+.contact-text p{
+    font-family: "Raleway-MediumItalic";
+ text-align: justify;
+ padding: 5px 15px;
+ text-shadow: 1px 1px 2px grey;
+}
+.contact-img img{
+    width: 800px;
+}
+.fa-map-marker , .fa-phone , .fa-globe{
+    font-size: 32px;
+    color: #263238;
+    text-shadow: 1px 1px 2px grey;
+    margin-left: 10px;
+}
+.location , .phone , .global{
+    display: flex;
+    padding: 5px;
+}
+.map iframe{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid gainsboro;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    height: 38px;
+    font-family:'Raleway-Medium' ;
+}
