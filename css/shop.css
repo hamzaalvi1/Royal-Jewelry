@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+@font-face {
+    font-family: 'Raleway-BoldItalic';
+    src: url('../fonts/Raleway-BoldItalic.ttf');
+  }
+  @font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('../fonts/KaushanScript-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Raleway-MediumItalic';
+    src: url('../fonts/Raleway-MediumItalic.ttf');
+  }
+
+  @font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf');
+  }
+
+.nav-wrapper{
+    background-color: #263238;
+    
+}
+.nav-wrapper li:hover{
+    background-color: white;
+    
+    
+}
+.nav-wrapper li>a:hover{
+    color: black;
+    
+    
+}
+.nav-wrapper a{
+    font-family:'Raleway-Medium';
+}
+.brand-logo{
+    font-family: "Dancing Script" !important;
+    margin-left: 25px;
+}
+.container h3
+{
+  font-family: "Raleway-BoldItalic";
+  color: #263238;
+  text-align: center;
+  padding: 0px 15px;
+  text-shadow: 1px 1px 2px grey;
+}
+.container h3 span{
+  font-family: "Raleway-BoldItalic";
+    color: darkgrey;
+    text-shadow: 1px 1px 2px black;
+  
+}
+.card-action button{
+  background-color: #263238 ;
+  width: 100%;
+  margin-top: 10px;
+}
+.card-action h6{
+  font-family: "Raleway-BoldItalic";
+  text-align: left;
+  padding: 0px 10px;
+  text-shadow: 1px 1px 2px grey;
+  margin: 5px 0px;
+  color: #263238
+
+}
+.card-action button:hover{
+  background-color: white ;
+  color: black;
+
+}
+.rating-icon{
+  margin-left: 10px;
+}
+.rating-icon i{
+  color: goldenrod;
+  padding: 0px 1px;
+
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    height: 38px;
+    font-family:'Raleway-Medium' ;
+}
