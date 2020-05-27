@@ -44,3 +44,168 @@ body{
 .brand-logo{
     font-family: "Dancing Script" !important;
 }
+.blog-details h3
+{
+  font-family: "Raleway-BoldItalic";
+  color: #263238;
+  text-align: center;
+  padding: 0px 15px;
+  text-shadow: 1px 1px 2px grey;
+}
+.blog-details h3 span{
+  font-family: "Raleway-BoldItalic";
+    color: darkgrey;
+    text-shadow: 1px 1px 2px black;
+  
+}
+.blog-details p{
+  
+    font-family: "Raleway-MediumItalic";
+    text-align: justify;
+    padding: 10px 40px;
+    text-shadow: 1px 1px 2px grey;
+    background-color: gainsboro;
+    max-width: 1000px ;
+    display: block;
+    margin: 15px auto;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+   }
+.weekly-product h3{
+  
+    font-family: "Raleway-BoldItalic";
+    color: #263238;
+    text-align: center;
+    padding: 0px 15px;
+    text-shadow: 1px 1px 2px grey;
+  }
+  .weekly-product h3 span{
+    font-family: "Raleway-BoldItalic";
+    color: darkgrey;
+    text-shadow: 1px 1px 2px black;
+  
+    
+  }
+.sale-1 h5{
+  font-family: "Raleway-BoldItalic";
+  color: white;
+  text-align: center;
+  padding: 0px 15px;
+  text-shadow: 1px 1px 2px grey;
+
+
+}
+.sale-1 {
+  background-color: #263238 ;
+}
+.sale-1 p{
+  font-family: "Raleway-MediumItalic";
+    text-align: justify;
+    color: white;
+    padding: 15px;
+}
+.weekly-product img{
+  height: 300px;
+  width: 100%;
+}
+.our-designer h3{
+
+  font-family: "Raleway-BoldItalic";
+  color: #263238;
+  text-align: center;
+  padding: 0px 15px;
+  text-shadow: 1px 1px 2px grey;
+}
+.card-action h6{
+  font-family: "Raleway-BoldItalic";
+  text-align: center;
+  text-shadow: 1px 1px 2px grey;
+  margin: 5px 0px;
+  color: #263238
+
+}.our-designer h3 span{
+  font-family: "Raleway-BoldItalic";
+  color: darkgrey;
+  text-shadow: 1px 1px 2px black;
+
+  
+}
+.img-1,.img-2,.img-3,.img-4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 42px;
+  width: 100%;
+}
+
+.brands{
+font-family: "Raleway-BoldItalic";
+text-align: center;
+color: black;
+padding: 0px 15px;
+text-shadow: 1px 1px 2px black; 
+}
+.brands span{
+font-family: "Raleway-BoldItalic";
+color: darkgrey
+}
+.delivery-icons{
+display: flex;
+justify-content: space-between;
+background-color: gainsboro;
+padding: 10px;
+
+}
+.del-icons-1 , .del-icons-2 , .del-icons-3 , .del-icons-4{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+h5{
+font-family: "Raleway-BoldItalic";
+text-align: left;
+color: #263238;
+padding: 0px 15px;
+text-shadow: 1px 1px 2px grey;
+
+
+}
+.fa-thumbs-up , .fa-truck , .fa-phone , .fa-random {
+font-size: 35px;
+color: #263238;
+text-shadow: 1px 1px 2px grey;
+
+}
+.font-para{
+font-family: "Raleway-MediumItalic";
+text-align: justify;
+padding: 0px 15px;
+text-shadow: 1px 1px 2px grey;
+color: #263238
+
+}
+.services{
+font-family: "Raleway-BoldItalic";
+text-align: center;
+color: black;
+padding: 0px 15px;
+text-shadow: 1px 1px 2px black; 
+}
+
+.services span{
+font-family: "Raleway-BoldItalic";
+color: darkgrey
+}
+.footer-copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #263238;
+  color: white;
+  text-align: center;
+  height: 38px;
+  font-family:'Raleway-Medium' ;
+}
