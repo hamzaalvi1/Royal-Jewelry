@@ -209,3 +209,13 @@ color: darkgrey
   height: 38px;
   font-family:'Raleway-Medium' ;
 }
+blockquote{
+  font-family: "Raleway-MediumItalic";
+    text-align: justify;
+    padding: 10px 40px;
+    text-shadow: 1px 1px 2px grey;
+    background-color: gainsboro;
+    max-width: 1000px ;
+    display: block;
+    margin: 15px auto
+}
