@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+@font-face {
+    font-family: 'Raleway-BoldItalic';
+    src: url('../fonts/Raleway-BoldItalic.ttf');
+  }
+  @font-face {
+    font-family: 'KaushanScript-Regular';
+    src: url('../fonts/KaushanScript-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Raleway-MediumItalic';
+    src: url('../fonts/Raleway-MediumItalic.ttf');
+  }
+
+  @font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../fonts/Raleway-Medium.ttf');
+  }
+
+.nav-wrapper{
+    background-color: #263238;
+    
+}
+.nav-wrapper li:hover{
+    background-color: white;
+    
+    
+}
+.nav-wrapper li>a:hover{
+    color: black;
+    
+    
+}
+.nav-wrapper a{
+    font-family:'Raleway-Medium';
+}
+.brand-logo{
+    font-family: "Dancing Script" !important;
+}
